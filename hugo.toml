@@ -1,0 +1,4 @@
+baseURL = 'https://eco.ycode.dev'
+languageCode = 'en-us'
+title = 'Hugo Commerce'
+theme = 'eco'

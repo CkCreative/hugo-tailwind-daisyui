@@ -1,0 +1,21 @@
+{
+  "name": "hugo-commerce",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently npm:watch:*",
+    "build-tw": "npx tailwindcss -i ./themes/eco/assets/css/main.css -o ./themes/eco/assets/css/style.css --minify",
+    "watch:tw": "npx tailwindcss -i ./themes/eco/assets/css/main.css -o ./themes/eco/assets/css/style.css --watch",
+    "watch:hugo": "hugo server",
+    "build": "hugo --minify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "daisyui": "^4.4.24",
+    "tailwindcss": "^3.4.0"
+  }
+}
